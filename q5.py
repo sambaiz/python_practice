@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-#問5 このファイルをサーバー名、ユーザーIDの昇順で5行だけ表示しろ
+#問5 このファイルをサーバー名、ユーザーIDの昇順で5行だけ表示しろ(未完成)
 import csv
 servers = []
 for c in csv.reader(open('hoge.csv','r').readlines()):
